@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aboreto&family=Inter:wght@400;500;700&family=Karla:wght@400;700;800&family=Orbitron:wght@400;800&family=Poppins:wght@400;600&family=Roboto:wght@400;500;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>Colors:)</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <input type="color" id="colorPicker" value="#546466">
+            <select name="styleSelect" id="selectionValue">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+            </select>
+            <button id="getBtn">Get color scheme</button>
+        </header>
+        <main>
+            <div id="colorScheme" class="colorScheme">
+                    <img src="./images/1.png" alt="Color number one">
+                    <img src="./images/2.png" alt="Color number two">
+                    <img src="./images/3.png" alt="Color number three">
+                    <img src="./images/4.png" alt="Color number four">
+                    <img src="./images/5.png" alt="Color number five">
+            </div>
+        </main>
+        <div id="likeFooter" class="likeFooter">
+            <p>#F55A5A</p>
+            <p>#2B283A</p>
+            <p>#FBF3AB</p>
+            <p>#AAD1B6</p>
+            <p>#A626D3</p>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
